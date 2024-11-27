@@ -18,6 +18,13 @@
     "dist",
     "README.md"
   ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "github",
+    "url": "https://github.com/enhancesd/promise-try"
+  },
   "author": "meji",
   "license": "ISC",
   "devDependencies": {
