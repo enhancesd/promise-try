@@ -1,0 +1,26 @@
+{
+  "name": "@emeji/promise-try",
+  "version": "0.1.0",
+  "description": "Promise.try polyfill",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {},
+  "keywords": [
+    "promise",
+    "try",
+    "catch",
+    "Promise",
+    "Promise.try",
+    "Promise polyfill",
+    "polyfill"
+  ],
+  "files": [
+    "dist",
+    "README.md"
+  ],
+  "author": "meji",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^5.7.2"
+  }
+}
