@@ -1,9 +1,8 @@
-
 interface PromiseConstructor {
-    try: <T>(fn: (...args: any[]) => T) => Promise<T>;
+    try: <T>(fn: (...args: any[]) => T, ...args: any[]) => Promise<T>;
 }
 
-Promise.try || (Promise.try = function promiseTry(func, ...args: any[]) {
+Promise.try || (Promise.try = function (func, ...args) {
     if(new.target) {
         throw new TypeError("Promise.try is not a constructor");
     }
